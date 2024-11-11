@@ -1,10 +1,11 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:wisata_candi/screens/login_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/search_screen.dart';
-import 'screens/favorite_screen.dart';
-import 'screens/profile_screen.dart';
+import 'package:wisata_candi/screens/register_screen.dart';
+// import 'screens/home_screen.dart';
+// import 'screens/search_screen.dart';
+// import 'screens/favorite_screen.dart';
+// import 'screens/profile_screen.dart';
 
 void main() {
   runApp(WisataCandiApp());
@@ -18,7 +19,7 @@ class WisataCandiApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: RegisterScreen(),
     );
   }
 }
@@ -32,10 +33,10 @@ class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens = [
-    HomeScreen(),
-    SearchScreen(),
-    FavoriteScreen(),
-    ProfileScreen(),
+    // HomeScreen(),
+    // SearchScreen(),
+    // FavoriteScreen(),
+    // ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {

@@ -30,7 +30,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Wisata Candi')),
+      appBar: _selectedIndex == 0 
+        ? AppBar(title: Text('Wisata Candi')) 
+        : null, // Hanya tampilkan app bar dengan judul di HomeScreen
       body: _screens[_selectedIndex], // Menampilkan screen yang dipilih
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
