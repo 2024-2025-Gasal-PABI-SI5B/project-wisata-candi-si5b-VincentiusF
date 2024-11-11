@@ -4,6 +4,7 @@ import 'screens/home_screen.dart';
 import 'screens/search_screen.dart';
 import 'screens/favorite_screen.dart';
 import 'screens/profile_screen.dart';
+import 'screens/login_screen.dart';
 
 void main() {
   runApp(WisataCandiApp());
@@ -17,7 +18,7 @@ class WisataCandiApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainScreen(),
+      home: LoginScreen(),
     );
   }
 }
