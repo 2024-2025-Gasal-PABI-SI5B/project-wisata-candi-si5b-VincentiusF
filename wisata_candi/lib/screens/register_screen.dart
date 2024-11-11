@@ -60,7 +60,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             SizedBox(height: 10),
             TextButton(
               onPressed: () {
-                Navigator.push(
+                Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(builder: (context) => LoginScreen()),
                 );
