@@ -1,10 +1,10 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
+import 'package:wisata_candi/screens/login_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/search_screen.dart';
 import 'screens/favorite_screen.dart';
 import 'screens/profile_screen.dart';
-import 'screens/login_screen.dart';
 
 void main() {
   runApp(WisataCandiApp());
