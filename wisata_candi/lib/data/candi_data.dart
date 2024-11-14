@@ -90,4 +90,26 @@ final List<Candi> candiList = [
       "images/ratu_boko.jpg",
     ],
   ),
+   Candi(
+    name: "Candi Bumi Ayu",
+    location: "Desa Bumiayu, Kecamatan Tanah Abang",
+    builtIn: " abad ke 9-13 Masehi.",
+    type: "Keraton",
+    description:
+        "Kawasan Candi Bumiayu merupakan kompleks candi Hindu yang terletak di Desa Bumiayu, Kecamatan Tanah Abang, Kabupaten Penukal Abab Lematang llir (Pali) Provinsi Sumatera Selatan. Catatan tentang Candi Bumiayu pertama kali muncul pada tahun 1864.",
+    gallery: [
+      "images/bumiayu.jpg",
+    ],
+  ),
+  Candi(
+    name: "Candi Arjuna",
+    location: "Dataran Tinggi Dieng, Kabupaten Banjarnegara, Jawa Tengah, Indonesia.",
+    builtIn: "abad ke 8-9 M",
+    type: "Mataram Kuno",
+    description:
+        "Komplek Candi Arjuna merupakan peninggalan peradaban Agama Hindu dimasa Kerajaan Mataram Kuno, yang didirikan pada abad ke 8-9 M. Secara geografi Komplek Candi Arjuna terletak di Kabupaten Banjarnegara.",
+    gallery: [
+      "images/arjuna.jpg",
+    ],
+  )
 ];
